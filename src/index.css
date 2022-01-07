@@ -1,13 +1,31 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #fefc01;
+  justify-content: center;
+}
+.app__logo {
+  object-fit: contain;
+  height: 100px;
+}
+.app__body {
+  background: url("https://www.pngkey.com/png/full/859-8598072_picture-fireuse-library-silhouette-mobile-at-getdrawing-cell.png")
+    no-repeat center;
+  background-size: contain;
+  padding: 74px;
+}
+.app__bodyBackground {
+  background-color: white;
+  height: 400px;
 }
